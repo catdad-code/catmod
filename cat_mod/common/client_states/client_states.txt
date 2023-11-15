@@ -1,0 +1,429 @@
+westphalia = 
+{
+	region = north_german_region
+	
+	name = {
+		name = "KINGDOM_OF_WESTPHALIA"
+		trigger = {
+			area = westphalia_area
+			from = {
+				government = monarchy
+			}
+		}
+	}
+	
+	name = {
+		name = "REPUBLIC_OF_WESTPHALIA"
+		trigger = {
+			area = westphalia_area
+			from = {
+				government = republic
+			}
+		}
+	}
+}
+
+franconia = 
+{
+	region = south_german_region
+
+	name = {
+		name = "KINGDOM_OF_FRANCONIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_FRANCONIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+two_sicilies = 
+{
+	region = italy_region
+	
+	name = {
+		name = "KINGDOM_OF_NAPLES"
+		trigger = {
+			OR = {
+				area = naples_area
+				area = calabria_area
+				area = apulia_area
+				area = sicily_area
+			}
+		
+		
+			from = {
+				government = monarchy
+			}
+		}
+	}
+	
+	name = {
+		name = "REPUBLICS_OF_NAPLES"
+		trigger = {
+			OR = {
+				area = naples_area
+				area = calabria_area
+				area = apulia_area
+				area = sicily_area
+			}
+			from = {
+				government = republic
+			}
+		}
+	}
+}
+
+italy = 
+{
+	region = italy_region
+	
+	name = {
+		name = "KINGDOM_OF_ITALY"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+	
+	name = {
+		name = "SUBALPINE_REPUBLIC"
+		trigger = {
+			from = {
+				government = republic
+			}
+		}
+	}
+}
+
+france = 
+{
+	region = france_region
+
+	name = {
+		name = "KINGDOM_OF_FRANCE"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_FRANCE"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+southern france = 
+{
+	region = france_region
+
+	name = {
+		names = "KINGDOM_OF_OCCITANIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		names = "REPUBLIC_OF_OCCITANIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+england = 
+{
+	region = british_isles_region
+
+	name = {
+		name = "KINGDOM_OF_ENGLAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_ENGLAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+ireland = 
+{
+	region = british_isles_region
+
+	name = {
+		name = "KINGDOM_OF_IRELAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_IRELAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+turkey = 
+{
+	region = anatolia_region
+
+	name = {
+		name = "KINGDOM_OF_TURKEY"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_TURKEY"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+netherlands = 
+{
+	region = low_countries_region
+
+	name = {
+		name = "KINGDOM_OF_THE_NETHERLANDS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_THE_NETHERLANDS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+russia = 
+{
+	region = russia_region
+
+	name = {
+		name = "KINGDOM_OF_RUSSIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_RUSSIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+persia = 
+{
+	region = persia_region
+
+	name = {
+		name = "KINGDOM_OF_PERSIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_PERSIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+scandinavia = 
+{
+	region = scandinavia_region
+
+	name = {
+		name = "KINGDOM_OF_SCANDINAVIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_SCANDINAVIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+spain = 
+{
+	region = iberia_region
+
+	name = {
+		name = "KINGDOM_OF_SPAIN"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_SPAIN"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+baltic = 
+{
+	region = baltic_region
+
+	name = {
+		name = "KINGDOM_OF_BALTICS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_BALTICS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+poland = 
+{
+	region = poland_region
+
+	name = {
+		name = "KINGDOM_OF_POLAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_POLAND"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+balkan = 
+{
+	region = balkan_region
+
+	name = {
+		name = "KINGDOM_OF_SLAVS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_SLAVS"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
+
+mesopotamia = 
+{
+	region = maghreb_region
+
+	name = {
+		name = "KINGDOM_OF_MESOPOTAMIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+
+	name = {
+		name = "REPUBLIC_OF_MESOPOTAMIA"
+		trigger = {
+			from = {
+				government = monarchy
+			}
+		}
+	}
+}
